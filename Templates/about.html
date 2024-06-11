@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>identifikasi</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/about.css') }}">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <a href=""><img src="{{ url_for('static', filename='Assets/Logo.jpg') }}" class="putih"/></a>
+        </div>
+        <div class="menu">
+            <a href="#" class="tombol-menu">
+                <span class="garis"></span>
+                <span class="garis"></span>
+                <span class="garis"></span>
+            </a>
+            <ul>
+                <li><a href="{{ url_for('index') }}">Home</a></li>
+                <li><a href="{{ url_for('identifikasi') }}">Identification</a></li>
+                <li><a href="{{ url_for('about') }}">About</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <section id="team">
+            <div class="tim">
+                <div>
+                    <img src="{{ url_for('static', filename='Assets/Abi.jpg') }}" class="gambar-bulat" />
+                    <h6>Abi</h6>
+                    <span>Ketua,back end</span>
+                </div>
+                <div>
+                    <img src="{{ url_for('static', filename='Assets/Lala2.jpg') }}" class="gambar-bulat" />
+                    <h6>Lala</h6>
+                    <span>Anggota,ui/ux</span>
+                </div>
+                <div>
+                    <img src="{{ url_for('static', filename='Assets/Dipa3.jpg') }}" class="gambar-bulat" />
+                    <h6>Dipa</h6>
+                    <span>Anggota,Front end,</span>
+                </div>
+                <div>
+                    <img src="{{ url_for('static', filename='Assets/Okta4.jpg') }}" class="gambar-bulat" />
+                    <h6>Okta</h6>
+                    <span>Anggota, Technical writter</span>
+                </div>
+                <div>
+                    <img src="{{ url_for('static', filename='Assets/Luna5.jpg') }}" class="gambar-bulat" />
+                    <h6>Luna</h6>
+                    <span>Anggota, Data Engginer</span>
+                </div>
+                <div>
+                    <img src="{{ url_for('static', filename='Assets/Aisyah4.jpg') }}" class="gambar-bulat" />
+                    <h6>Aisyah</h6>
+                    <span>Anggota,ML Engginer</span>
+                </div>
+            </div>
+        </section>
+
+        <div class="content">
+        <div class="card1">
+            <div class="card-1">
+                <h2>Platform kami membantu Anda mendeteksi, mengidentifikasi, dan mengatasi hama pada tanaman Anda. Kami menyediakan alat dan informasi yang berguna untuk menjaga tanaman Anda tetap sehat dan produktif.</h2>
+            </div>
+        </div>
+        <div class="card2">
+            <div class="card-2">
+                <h2>Dengan pengetahuan dan teknologi yang tepat, petani dapat mengatasi tantangan dalam pertanian dan mencapai hasil panen yang optimal.</h2>
+            </div>
+        </div>
+        <div class="card3">
+            <div class="card-3">
+                <h2>Dengan teknologi canggih dan panduan yang mudah dipahami, kami siap membantu Anda menghadapi tantangan dalam pertanian. Mari bersama-sama menjaga kelestarian tanaman Anda dan meningkatkan hasil panen.</h2>
+            </div>
+        </div>
+        <div class="card4">
+            <div class="card-4">
+                <h2>Kami berharap agar lingkungan pertanian berkelanjutan dan ramah lingkungan, yang mana tanaman tumbuh subur tanpa terganggu oleh serangan hama.</h2>
+            </div>
+        </div>
+        <div class="card5">
+            <div class="card-5">
+                <h2>Bergabunglah dengan kami dalam misi kami untuk menciptakan masa depan pertanian yang lebih cerah dan berkelanjutan bagi semua.</h2>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="{{ url_for('static', filename='js/javascript.js') }}"></script>
+</main>
+</body>
+</html>

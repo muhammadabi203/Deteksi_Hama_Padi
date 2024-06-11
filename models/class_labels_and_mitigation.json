@@ -1,0 +1,98 @@
+{
+    "HamaKulitPadi": {
+        "mitigation": [
+            "Pemanfaatan pestisida kimia yang direkomendasikan.",
+            "Penggunaan varietas padi yang tahan terhadap hama kulit padi.",
+            "Penerapan sanitasi lingkungan pertanian yang baik.",
+            "Penggunaan perangkap feromon untuk mengendalikan populasi hama."
+        ]
+    },
+    "KumbangPadi": {
+        "mitigation": [
+            "Penggunaan varietas padi tahan kumbang.",
+            "Pengendalian biologis dengan musuh alami.",
+            "Penggunaan pestisida nabati yang ramah lingkungan.",
+            "Penanaman tanaman perangkap di sekitar lahan padi."
+        ]
+    },
+    "Lalat": {
+        "mitigation": [
+            "Penggunaan insektisida kimia sesuai dosis yang dianjurkan.",
+            "Penggunaan perangkap lalat untuk mengurangi populasi.",
+            "Pengendalian lingkungan dengan menjaga kebersihan lahan.",
+            "Rotasi tanaman untuk menghindari perkembangan hama."
+        ]
+    },
+    "LalatBatangPadi": {
+        "mitigation": [
+            "Pemanfaatan varietas padi tahan lalat batang.",
+            "Penerapan rotasi tanaman untuk memutus siklus hidup lalat.",
+            "Penggunaan insektisida selektif yang aman.",
+            "Pengendalian biologis menggunakan parasitoid alami."
+        ]
+    },
+    "PenggerekPadiAsia": {
+        "mitigation": [
+            "Penanaman varietas padi yang tahan terhadap penggerek.",
+            "Penggunaan feromon sebagai perangkap penggerek.",
+            "Penerapan sanitasi lingkungan yang baik.",
+            "Penggunaan pestisida sesuai dosis anjuran."
+        ]
+    },
+    "PenggerekPadiBergaris": {
+        "mitigation": [
+            "Penggunaan pestisida nabati yang ramah lingkungan.",
+            "Penerapan pengendalian hayati dengan musuh alami.",
+            "Penggunaan varietas padi tahan penggerek bergaris.",
+            "Penggunaan perangkap feromon untuk memantau populasi."
+        ]
+    },
+    "PenggerekPadiKuning": {
+        "mitigation": [
+            "Pemanfaatan varietas padi tahan penggerek kuning.",
+            "Penggunaan insektisida alami yang aman.",
+            "Penerapan rotasi tanaman untuk memutus siklus hidup hama.",
+            "Pengendalian secara mekanis dengan memotong batang yang terinfeksi."
+        ]
+    },
+    "PenggulungDaunPadi": {
+        "mitigation": [
+            "Penggunaan pestisida nabati yang aman bagi lingkungan.",
+            "Pengendalian hayati dengan musuh alami penggulung daun.",
+            "Penanaman varietas padi tahan penggulung daun.",
+            "Penerapan sanitasi lingkungan untuk mengurangi populasi hama."
+        ]
+    },
+    "Thrips": {
+        "mitigation": [
+            "Pemanfaatan varietas padi tahan thrips.",
+            "Penggunaan insektisida alami seperti neem oil.",
+            "Pengendalian hayati dengan predator alami thrips.",
+            "Penerapan sanitasi lingkungan yang baik."
+        ]
+    },
+    "UlatDaunPadi": {
+        "mitigation": [
+            "Pengendalian secara mekanis dengan mengumpulkan ulat dan telurnya.",
+            "Penggunaan pestisida alami atau kimia dengan dosis yang tepat.",
+            "Penggunaan predator alami seperti burung pemakan serangga.",
+            "Penanaman tanaman perangkap di sekitar lahan padi."
+        ]
+    },
+    "WerengCoklat": {
+        "mitigation": [
+            "Penggunaan varietas padi tahan wereng coklat.",
+            "Pengendalian hayati dengan musuh alami wereng coklat.",
+            "Penggunaan pestisida kimia yang efektif.",
+            "Penerapan rotasi tanaman untuk mengurangi populasi wereng."
+        ]
+    },
+    "WerengDaunPadi": {
+        "mitigation": [
+            "Penggunaan varietas padi tahan wereng daun.",
+            "Pengendalian hayati dengan parasitoid alami.",
+            "Penggunaan pestisida nabati yang ramah lingkungan.",
+            "Penerapan sanitasi lingkungan untuk mengurangi populasi wereng."
+        ]
+    }
+}

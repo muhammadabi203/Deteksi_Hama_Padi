@@ -1,0 +1,12 @@
+HamaKulitPadi
+KumbangPadi
+Lalat
+LalatBatangPadi
+PenggerekPadiAsia
+PenggerekPadiBergaris
+PenggerekPadiKuning
+PenggulungDaunPadi
+Thrips
+UlatDaunPadi
+WerengCoklat
+WerengDaunPadi

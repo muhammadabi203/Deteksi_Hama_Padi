@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Php</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+</head>
+<body>
+    <nav>
+        <div class="layar-dalam">
+            <div class="logo">
+                <a href=""><img src="{{ url_for('static', filename='Assets/Logo.jpg') }}" class="putih"/></a>
+            </div>
+            <div class="menu">
+                <a href="#" class="tombol-menu">
+                    <span class="garis"></span>
+                    <span class="garis"></span>
+                    <span class="garis"></span>
+                </a>
+                <ul>
+                    <li><a href="{{ url_for('index') }}">Home</a></li>
+                    <li><a href="{{ url_for('identifikasi') }}">Identification</a></li>
+                    <li><a href="{{ url_for('about') }}">About</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="layar-penuh">
+        <header id="home">
+            <div class="overlay"></div>
+            <video autoplay muted loop>
+                <source src="{{ url_for('static', filename='Assets/Video sawah 2.mp4') }}" type="video/mp4" />
+            </video>
+            <div class="intro">
+                <h3>Welcome To Pendeteksi Hama Padi</h3>
+                <p>siap mendeteksi Hama? Temukan solusi terbaik untuk tanaman Anda</p>
+                <p>
+                    <a href="{{ url_for('identifikasi') }}" class="tombol">Show more</a>
+                </p>
+            </div>
+        </header>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="{{ url_for('static', filename='js/javascript.js') }}"></script>
+</body>
+</html>
